@@ -1,8 +1,64 @@
-# React + Vite
+# Flexible Buttons
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+## Description
 
-Currently, two official plugins are available:
+This project is a React-based web application featuring a customizable button component with various modes, including filled, outline, text-only, and icon-inclusive buttons. It also demonstrates the use of custom SVG icons within the button component.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## Installation
+
+To get started with this project, follow these steps:
+
+1. **Clone the Repository**
+
+```
+git clone [repository-url]
+cd [repository-directory]
+```
+
+2. **Install Dependencies**
+
+Ensure you have Node.js and npm installed, then run:
+
+`npm install`
+
+3. **Start the Development Server**
+
+`npm run dev`
+
+This will launch the app in your default browser.
+
+## Usage
+
+The project consists of the main `App` component that showcases different types of buttons:
+
+- Default Button
+- Filled Button
+- Outline Button
+- Text-only Button
+- Buttons with Icons
+
+You can use the `Button` component in your project by importing it along with the required icon components:
+
+```
+import Button from './Button';
+import HomeIcon from './assets/HomeIcon';
+import PlusIcon from './assets/PlusIcon';
+```
+
+// Use in your component
+<Button Icon={HomeIcon}>Home</Button>
+<Button Icon={PlusIcon} mode="text">Add</Button>
+
+## Customization
+
+To customize the button styles, edit the CSS in `App.css`. The button supports the following modes:
+
+- `filled` (default)
+- `outline`
+- `text`
+
+Icons can be added by passing an SVG component to the `Icon` prop.
+
+```
+
+```
