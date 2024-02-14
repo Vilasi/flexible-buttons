@@ -1,5 +1,7 @@
 # Flexible Buttons
 
+![Project Screenshot](https://i.imgur.com/eZkwYRr.png)
+
 ## Description
 
 This project is a React-based web application featuring a customizable button component with various modes, including filled, outline, text-only, and icon-inclusive buttons. It also demonstrates the use of custom SVG icons within the button component.
