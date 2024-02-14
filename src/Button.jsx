@@ -25,6 +25,5 @@ export default function Button({ children, mode = 'filled', Icon, ...props }) {
     );
   }
 
-  //   if ()
   return button;
 }
