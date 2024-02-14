@@ -58,7 +58,3 @@ To customize the button styles, edit the CSS in `App.css`. The button supports t
 - `text`
 
 Icons can be added by passing an SVG component to the `Icon` prop.
-
-```
-
-```
